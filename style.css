@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    padding: 20px 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    border: 2px solid white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+.nav-left a {
+    font-size: 24px;
+    border: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.button,
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container .button:hover,
+.container button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.task-table th,
+.task-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.task-table th {
+    background-color: #f0f0f0;
+}
+
+
+.complete-link {
+    color: green;
+    text-decoration: none;
+}
+
+.completed-label {
+    color: green;
+    font-weight: bold;
+}
+
